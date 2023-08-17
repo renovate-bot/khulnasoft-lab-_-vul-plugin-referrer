@@ -17,7 +17,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/table"
+	"github.com/khulnasoft-lab/table"
 )
 
 const onelineTemplate = `{{- range $index, $descriptor := .Manifests }}

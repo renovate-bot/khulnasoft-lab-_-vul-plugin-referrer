@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft-lab/vul/pkg/log"
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/google/go-containerregistry/pkg/v1"
