@@ -14,7 +14,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft-lab/vul/pkg/log"
 )
 
 type Insecure bool
@@ -69,11 +69,11 @@ func keyValueSliceToMap(s []string) (map[string]string, error) {
 }
 
 func main() {
-	viper.SetEnvPrefix("trivy")
+	viper.SetEnvPrefix("vul")
 	viper.AutomaticEnv()
 
 	rootCmd := &cobra.Command{
-		Short: "A Trivy plugin for oci referrers",
+		Short: "A Vul plugin for oci referrers",
 		PersistentPreRunE: func(cmd *cobra.Command, args []string) error {
 			debug := viper.GetBool("debug")
 			quiet := viper.GetBool("quiet")
@@ -95,9 +95,9 @@ func main() {
 	putCmd := &cobra.Command{
 		Use:   "put",
 		Short: "put a referrer to the oci registry",
-		Example: `  trivy image -q -f cyclonedx YOUR_IMAGE | trivy referrer put
+		Example: `  vul image -q -f cyclonedx YOUR_IMAGE | vul referrer put
   # Put SBOM attestation
-  trivy referrer put -f sbom.json`,
+  vul referrer put -f sbom.json`,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			path := viper.GetString("file")
 
@@ -145,8 +145,8 @@ func main() {
 		Use:   "get YOUR_IMAGE",
 		Short: "get the referrer's artifact",
 		Args:  cobra.ExactArgs(1),
-		Example: `  $ trivy referrer get --type cyclonedx YOUR_IMAGE
-  $ trivy referrer get --digest DIGEST YOUR_IMAGE`,
+		Example: `  $ vul referrer get --type cyclonedx YOUR_IMAGE
+  $ vul referrer get --digest DIGEST YOUR_IMAGE`,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			output := viper.GetString("output")
 			var writer io.Writer
@@ -190,7 +190,7 @@ func main() {
 	listCmd := &cobra.Command{
 		Use:     "list",
 		Short:   "list referrers",
-		Example: `  $ trivy referrer list YOUR_IMAGE`,
+		Example: `  $ vul referrer list YOUR_IMAGE`,
 		Args:    cobra.ExactArgs(1),
 		RunE: func(cmd *cobra.Command, args []string) error {
 			output := viper.GetString("output")
@@ -244,7 +244,7 @@ func main() {
 	treeCmd := &cobra.Command{
 		Use:     "tree",
 		Short:   "recurse into referrers and print the result as a tree",
-		Example: `  $ trivy referrer tree YOUR_IMAGE`,
+		Example: `  $ vul referrer tree YOUR_IMAGE`,
 		Args:    cobra.ExactArgs(1),
 		RunE: func(cmd *cobra.Command, args []string) error {
 			output := viper.GetString("output")
