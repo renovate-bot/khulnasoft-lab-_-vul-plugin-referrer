@@ -8,6 +8,7 @@ require (
 	github.com/khulnasoft-lab/table v1.8.0
 	github.com/khulnasoft/vul v1.0.0
 	github.com/owenrumney/go-sarif v1.1.1
+	github.com/owenrumney/go-sarif/v2 v2.2.0
 	github.com/samber/lo v1.38.1
 	github.com/spdx/tools-golang v0.5.3
 	github.com/spf13/cobra v1.7.0
@@ -47,7 +48,6 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc4 // indirect
-	github.com/owenrumney/go-sarif/v2 v2.1.3 // indirect
 	github.com/package-url/packageurl-go v0.1.1 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
