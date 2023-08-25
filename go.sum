@@ -60,6 +60,8 @@ github.com/BurntSushi/toml v1.3.2 h1:o7IhLm0Msx3BaB+n3Ag7L8EVlByGnpq14C4YWiu/gL8
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/CycloneDX/cyclonedx-go v0.7.1 h1:5w1SxjGm9MTMNTuRbEPyw21ObdbaagTWF/KfF0qHTRE=
 github.com/CycloneDX/cyclonedx-go v0.7.1/go.mod h1:N/nrdWQI2SIjaACyyDs/u7+ddCkyl/zkNs8xFsHF2Ps=
+github.com/CycloneDX/cyclonedx-go v0.7.2-0.20230625092137-07e2f29defc3 h1:NqeV+ZMqpcosu0Xg2VW14Ru9ayBs/toe2oihS7sN6Xo=
+github.com/CycloneDX/cyclonedx-go v0.7.2-0.20230625092137-07e2f29defc3/go.mod h1:fGXSp1lCDfMQ8KR1EjxT4ewc5HHhGczRF2pWhLSWohs=
 github.com/GoogleCloudPlatform/docker-credential-gcr v2.0.5+incompatible h1:juIaKLLVhqzP55d8x4cSVgwyQv76Z55/fRv/UBr2KkQ=
 github.com/MakeNowJust/heredoc v1.0.0 h1:cXCdzVdstXyiTqTvfqk9SDHpKNjxuom+DOlyEeQ4pzQ=
 github.com/Masterminds/goutils v1.1.1 h1:5nUrii3FMTL5diU80unEVvNevw1nH4+ZV4DSLVJLSYI=
@@ -275,6 +277,8 @@ github.com/khulnasoft-lab/vul-db v0.0.0-20230814001543-d73de263231f h1:p0sj8Y0By
 github.com/khulnasoft-lab/vul-db v0.0.0-20230814001543-d73de263231f/go.mod h1:t13IKhA0bNYPZiJHkGRK3+oEsqD6Pn9HHdnqKMznQH0=
 github.com/khulnasoft/vul v1.0.0 h1:vWEipflroNt4dVOP7OKe5nQZqlSUtd0enqslOQprn1A=
 github.com/khulnasoft/vul v1.0.0/go.mod h1:vD99EPBWz54wkoI6IPc4WnRz0nbswiR9jGnaAyx819U=
+github.com/khulnasoft/vul v1.0.2 h1:VYGviyTfM7EV9+ZnLz+8yPT1xEWFK55oGK8hnF0UImo=
+github.com/khulnasoft/vul v1.0.2/go.mod h1:fKPlQdl7jEYi6Eslwkyd9oS1mKN6LEAjPGKhy37WHH0=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/klauspost/compress v1.16.5 h1:IFV2oUNUzZaz+XyusxpLzpzS8Pt5rh0Z16For/djlyI=
 github.com/klauspost/compress v1.16.5/go.mod h1:ntbaceVETuRiXiv4DpjP66DpAtAGkEQskQzEyD//IeE=
