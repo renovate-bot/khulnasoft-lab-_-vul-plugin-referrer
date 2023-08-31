@@ -3,26 +3,26 @@ repository: github.com/khulnasoft-lab/vul-plugin-referrer
 version: "0.2.1"
 usage: Put referrers to OCI registry
 description: |-
-  A Trivy plugin for OCI referrers
-  Usage: trivy image -q -f cyclonedx IMAGE_NAME | trivy referrer put
+  A Vul plugin for OCI referrers
+  Usage: vul image -q -f cyclonedx IMAGE_NAME | vul referrer put
 platforms:
   - selector:
       os: darwin
       arch: amd64
-    uri: https://github.com/khulnasoft-lab/vul-plugin-referrer/releases/download/v0.2.1/trivy_plugin_referrer_0.2.1_macOS-64bit.tar.gz
+    uri: https://github.com/khulnasoft-lab/vul-plugin-referrer/releases/download/v0.2.1/vul_plugin_referrer_0.2.1_macOS-64bit.tar.gz
     bin: ./referrer
   - selector:
       os: darwin
       arch: arm64
-    uri: https://github.com/khulnasoft-lab/vul-plugin-referrer/releases/download/v0.2.1/trivy_plugin_referrer_0.2.1_macOS-ARM64.tar.gz
+    uri: https://github.com/khulnasoft-lab/vul-plugin-referrer/releases/download/v0.2.1/vul_plugin_referrer_0.2.1_macOS-ARM64.tar.gz
     bin: ./referrer
   - selector:
       os: linux
       arch: amd64
-    uri: https://github.com/khulnasoft-lab/vul-plugin-referrer/releases/download/v0.2.1/trivy_plugin_referrer_0.2.1_Linux-64bit.tar.gz
+    uri: https://github.com/khulnasoft-lab/vul-plugin-referrer/releases/download/v0.2.1/vul_plugin_referrer_0.2.1_Linux-64bit.tar.gz
     bin: ./referrer
   - selector:
       os: linux
       arch: arm64
-    uri: https://github.com/khulnasoft-lab/vul-plugin-referrer/releases/download/v0.2.1/trivy_plugin_referrer_0.2.1_Linux-ARM64.tar.gz
+    uri: https://github.com/khulnasoft-lab/vul-plugin-referrer/releases/download/v0.2.1/vul_plugin_referrer_0.2.1_Linux-ARM64.tar.gz
     bin: ./referrer
