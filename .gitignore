@@ -15,3 +15,5 @@
 # vendor/
 
 vul-plugin-referrer
+
+dist/
