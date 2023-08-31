@@ -1,4 +1,4 @@
-module github.com/khulnasoft/vul-plugin-referrer
+module github.com/khulnasoft-lab/vul-plugin-referrer
 
 go 1.20
 
@@ -7,8 +7,7 @@ require (
 	github.com/google/go-containerregistry v0.16.1
 	github.com/khulnasoft-lab/table v1.8.0
 	github.com/khulnasoft/vul v1.0.2
-	github.com/owenrumney/go-sarif/v2 v2.2.0
-	github.com/owenrumney/go-sarif/v2 v2.2.0
+	github.com/owenrumney/go-sarif v1.1.1
 	github.com/samber/lo v1.38.1
 	github.com/spdx/tools-golang v0.5.3
 	github.com/spf13/cobra v1.7.0

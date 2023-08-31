@@ -5,7 +5,7 @@ Vul plugin for the OCI referrer
 ## Install
 
 ```
-$ vul plugin install github.com/khulnasoft/vul-plugin-referrer
+$ vul plugin install github.com/khulnasoft-lab/vul-plugin-referrer
 ```
 
 ## Usage
