@@ -3,10 +3,8 @@ module github.com/khulnasoft-lab/vul-plugin-referrer
 go 1.20
 
 require (
-	github.com/fatih/color v1.15.0
-	github.com/google/go-containerregistry v0.16.1
 	github.com/khulnasoft-lab/table v1.8.0
-	github.com/khulnasoft/vul v1.0.2
+	github.com/khulnasoft-lab/vul v0.39.1
 	github.com/fatih/color v1.15.0
 	github.com/google/go-containerregistry v0.14.0
 	github.com/owenrumney/go-sarif v1.1.1
@@ -16,10 +14,14 @@ require (
 	github.com/spf13/viper v1.15.0
 	github.com/xlab/treeprint v1.2.0
 )
+
 replace github.com/spdx/tools-golang => github.com/spdx/tools-golang v0.3.0
+
 require (
 	github.com/CycloneDX/cyclonedx-go v0.7.1 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
+	github.com/khulnasoft-lab/go-dep-parser v0.0.0-20230413091456-df0396537e15 // indirect
+	github.com/khulnasoft-lab/vul-db v0.0.0-20230411140759-3c2ee2168575 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.14.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/docker/cli v23.0.3+incompatible // indirect
