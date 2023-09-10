@@ -3,16 +3,11 @@ module github.com/khulnasoft-lab/vul-plugin-referrer
 go 1.20
 
 require (
-<<<<<<< Updated upstream
-=======
-	github.com/khulnasoft-lab/vul v0.44.0
->>>>>>> Stashed changes
 	github.com/fatih/color v1.15.0
 	github.com/google/go-containerregistry v0.16.1
 	github.com/khulnasoft-lab/table v1.8.0
 	github.com/khulnasoft/vul v1.0.2
 	github.com/owenrumney/go-sarif v1.1.1
-	github.com/owenrumney/go-sarif/v2 v2.2.0
 	github.com/samber/lo v1.38.1
 	github.com/spdx/tools-golang v0.5.3
 	github.com/spf13/cobra v1.7.0
@@ -24,11 +19,6 @@ require (
 	github.com/CycloneDX/cyclonedx-go v0.7.2-0.20230625092137-07e2f29defc3 // indirect
 	github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
-<<<<<<< Updated upstream
-=======
-	github.com/khulnasoft-lab/go-dep-parser v1.0.0
-	github.com/khulnasoft-lab/vul-db v2.0.0
->>>>>>> Stashed changes
 	github.com/containerd/stargz-snapshotter/estargz v0.14.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/docker/cli v24.0.0+incompatible // indirect
