@@ -7,7 +7,7 @@ require (
 	github.com/google/go-containerregistry v0.16.1
 	github.com/khulnasoft-lab/table v1.8.0
 	github.com/owenrumney/go-sarif v1.1.1
-	github.com/samber/lo v1.38.1
+	github.com/samber/lo v1.47.0
 	github.com/spdx/tools-golang v0.3.1-0.20230104082527-d6f58551be3f
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/viper v1.16.0
