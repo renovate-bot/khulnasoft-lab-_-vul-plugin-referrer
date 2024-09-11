@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/fatih/color v1.15.0
-	github.com/google/go-containerregistry v0.16.1
+	github.com/google/go-containerregistry v0.20.2
 	github.com/khulnasoft-lab/table v1.8.0
 	github.com/owenrumney/go-sarif v1.1.1
 	github.com/samber/lo v1.38.1
