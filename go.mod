@@ -3,7 +3,7 @@ module github.com/khulnasoft-lab/vul-plugin-referrer
 go 1.20
 
 require (
-	github.com/fatih/color v1.15.0
+	github.com/fatih/color v1.18.0
 	github.com/google/go-containerregistry v0.16.1
 	github.com/khulnasoft-lab/table v1.8.0
 	github.com/owenrumney/go-sarif v1.1.1
